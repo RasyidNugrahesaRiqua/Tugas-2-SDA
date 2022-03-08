@@ -1,0 +1,70 @@
+import java.util.LinkedList;
+
+public class linked_list {
+    public static void main(String[] args) {
+        LinkedList<String> saya = new LinkedList<String>();
+       
+        //karakter nama "RASYID NUGRAHESA RIQUA"
+        saya.add("R");
+        saya.add("A");
+        saya.add("S");
+        saya.add("Y");
+        saya.add("I");
+        saya.add("D");
+        saya.add("");
+        saya.add("N");
+        saya.add("U");
+        saya.add("G");
+        saya.add("R");
+        saya.add("A");
+        saya.add("H");
+        saya.add("E");
+        saya.add("S");
+        saya.add("A");
+        saya.add("");
+        saya.add("R");
+        saya.add("I");
+        saya.add("Q");
+        saya.add("U");
+        saya.add("A");
+        System.out.println("=====================================");
+        System.out.println(saya);
+        System.out.println("\n");
+
+        System.out.println("List sebelum ditambahkan karakter: " + saya);
+        System.out.println("\n");
+
+        //fungsi menyisipkan karakter
+        saya.set(0,"B");
+        saya.set(5,"A");
+        saya.set(2,"I");
+        saya.set(10,"K");
+        System.out.println("List setelah ditambahkan karakter: " + saya);
+        System.out.println("\n");
+
+        //fungsi Remove
+        saya.remove(1);
+        saya.remove(3);
+        saya.remove(5);
+        saya.remove(7);
+        saya.remove(9);
+        saya.remove(11);
+        saya.remove(13);
+        saya.remove(12);
+        System.out.println("List setelah di remove: " + saya);
+        System.out.println(" \n");
+
+        //Fungsi push
+        saya.push("SABAR");
+        saya.push("PINTAR");
+        saya.push("KEREN");
+        System.out.println("Setelah elemen push" + saya);
+        System.out.println("\n");
+
+        //Fungsi POP
+        saya.pop();
+        System.out.println("setelah pop: " + saya);
+        //System.out.println(saya.pop());
+
+    }
+}
